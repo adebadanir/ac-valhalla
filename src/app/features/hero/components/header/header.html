@@ -1,0 +1,22 @@
+<div class="header-container">
+  <img [ngSrc]="imgUrl" [width]="259" [height]="85" />
+  <nav class="header-navigation">
+    @for (item of navigation; track $index) {
+    <a href="{{item.url}}">{{item.name}}</a>
+    }
+  </nav>
+  <div class="social">
+    <button class="language custom-select">ENG</button>
+    @if (isClicked) {
+    <div class="dropdown-menu">
+      @for (item of languages; track $index) {
+      <div>{{ item.name }}</div>
+      }
+    </div>
+    }
+    <div class="social-icons">
+      @for (item of svgIcon; track $index) {
+      <img [ngSrc]="item.url " [width]="24" [height]="24" />}
+    </div>
+  </div>
+</div>

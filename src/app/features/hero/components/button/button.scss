@@ -1,0 +1,24 @@
+.button {
+  width: 338px;
+  height: 80px;
+  border: 2px solid #3db3a2;
+  border-radius: 6px;
+  color: #3db8a5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba($color: #3db8a5, $alpha: 0.1);
+}
+.text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.line {
+  height: 2rem;
+  width: 1px;
+  border: 1px solid #3db3a2;
+}
