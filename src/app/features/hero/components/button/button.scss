@@ -10,7 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba($color: #3db8a5, $alpha: 0.1);
+  background-color: rgba($color: #ffffff, $alpha: 0.1);
+}
+.button:hover {
+  background-color: rgba($color: #ffffff, $alpha: 0.2);
+  transition: background-color 0.3s ease-in-out;
 }
 .text {
   display: flex;

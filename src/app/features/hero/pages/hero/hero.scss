@@ -13,7 +13,7 @@
 }
 
 .hero-content {
-  padding: 10rem 22rem;
+  padding: 9.5rem 22rem;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -50,6 +50,7 @@
   justify-content: center;
   margin: 0px auto;
   gap: 10px;
+  animation: bounceY 0.3s ease-in-out infinite alternate;
 }
 
 .scroll-button span {
@@ -57,4 +58,17 @@
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.scroll-button:hover {
+  animation: none;
+}
+
+@keyframes bounceY {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
 }
