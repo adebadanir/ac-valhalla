@@ -1,0 +1,65 @@
+.about-container {
+  display: grid;
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background-image: url("i../../../../../../../../public/images/about-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  place-items: center;
+}
+
+.about-content {
+  display: flex;
+  font-family: "Bebas Neue", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 710px;
+  margin-right: 112px;
+}
+
+.text-content h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text-content h1 {
+  font-size: 100px;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
+.text-content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
+  padding: 34px 0px 0px 153px;
+}
+.image-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.image-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 69px;
+}
+
+.carousel-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

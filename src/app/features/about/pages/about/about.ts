@@ -1,11 +1,10 @@
+import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './about.html',
-  styleUrl: './about.scss'
+  styleUrl: './about.scss',
 })
-export class About {
-
-}
+export class About {}
