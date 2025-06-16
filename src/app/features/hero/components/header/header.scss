@@ -1,39 +1,39 @@
 .header-container {
-  display: flex;
-  width: 100%;
-  padding: 2rem 0px;
   align-items: center;
-  justify-content: space-between;
   color: white;
+  display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 1rempx;
   font-weight: bold;
+  justify-content: space-between;
+  padding: 2rem 0px;
   text-transform: uppercase;
+  width: 100%;
 }
 
 .header-navigation {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 2rem;
 }
 
 .social {
-  display: flex;
   align-items: center;
+  display: flex;
   height: 2rem;
 }
 
 .language {
-  display: flex;
   align-items: center;
+  border-right: 1px solid white;
+  display: flex;
   height: 100%;
   padding-right: 40px;
-  border-right: 1px solid white;
 }
 
 .social-icons {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 1rem;
   padding-left: 1rem;
 }
@@ -44,8 +44,8 @@
   -moz-appearance: none;
   background-color: transparent;
   background-image: url("../../../../../../public/svg/select.svg");
-  background-repeat: no-repeat;
   background-position: right 18px center;
+  background-repeat: no-repeat;
   background-size: 10px 6px;
   cursor: pointer;
 }
@@ -56,13 +56,13 @@
 }
 
 .dropdown-menu {
-  position: absolute;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   gap: 8px;
   height: auto;
+  position: absolute;
   top: 100px;
-  background-color: transparent;
 }
 
 .dropdown-menu div:hover {

@@ -1,28 +1,28 @@
 .button {
-  width: 338px;
-  height: 80px;
+  align-items: center;
+  background-color: rgba($color: #ffffff, $alpha: 0.1);
   border: 2px solid #3db3a2;
   border-radius: 6px;
   color: #3db8a5;
+  display: flex;
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
-  display: flex;
-  align-items: center;
+  height: 80px;
   justify-content: center;
-  background-color: rgba($color: #ffffff, $alpha: 0.1);
+  width: 338px;
 }
 .button:hover {
   background-color: rgba($color: #ffffff, $alpha: 0.2);
   transition: background-color 0.3s ease-in-out;
 }
 .text {
+  align-items: center;
   display: flex;
   gap: 20px;
-  align-items: center;
 }
 .line {
+  border: 1px solid #3db3a2;
   height: 2rem;
   width: 1px;
-  border: 1px solid #3db3a2;
 }

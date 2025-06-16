@@ -2,61 +2,61 @@
   background-image: url("i../../../../../../../../public/images/hero-background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: inset 0 0 1000px 200px #000;
+  height: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
   padding: 20px 120px;
   width: 100%;
-  max-width: 100vw;
-  height: 100%;
-  min-height: 100vh;
-  box-shadow: inset 0 0 1000px 200px #000;
 }
 
 .hero-container {
-  height: 100%;
-  display: grid;
-  place-items: center;
   color: white;
+  display: grid;
   font-family: "Open Sans", sans-serif;
+  height: 100%;
+  place-items: center;
 }
 
 .hero-content {
-  padding: 9.5rem 22rem;
-  display: flex;
-  position: relative;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   gap: 4rem;
+  justify-content: center;
+  padding: 9.5rem 22rem;
+  position: relative;
+  width: 100%;
 }
 
 .h1 {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 100px;
   font-weight: bold;
   letter-spacing: 3px;
-  font-family: "Bebas Neue", sans-serif;
 }
 
 .h3 {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
-  font-family: "Bebas Neue", sans-serif;
 }
 
 .title {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .scroll-button {
+  align-items: center;
+  animation: bounceY 0.3s ease-in-out infinite alternate;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 10px;
   justify-content: center;
   margin: 0px auto;
-  gap: 10px;
-  animation: bounceY 0.3s ease-in-out infinite alternate;
 }
 
 .scroll-button span {

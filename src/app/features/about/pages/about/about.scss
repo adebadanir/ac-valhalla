@@ -1,30 +1,30 @@
 .about-container {
-  display: grid;
-  width: 100%;
-  max-width: 100vw;
-  height: auto;
-  min-height: 100vh;
   background-image: url("i../../../../../../../../public/images/about-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  place-items: center;
   box-shadow: inset 0 0 2000px 300px #000;
+  color: white;
+  display: grid;
+  height: auto;
+  max-width: 100vw;
+  min-height: 100vh;
+  place-items: center;
+  width: 100%;
 }
 
 .about-content {
+  align-items: center;
   display: flex;
   font-family: "Bebas Neue", sans-serif;
-  align-items: center;
   justify-content: center;
 }
 
 .text-content {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 710px;
   margin-right: 112px;
+  max-width: 710px;
+  width: 100%;
 }
 
 .text-content h3 {
@@ -33,34 +33,34 @@
 }
 
 .text-content h1 {
+  border-bottom: 1px solid white;
   font-size: 100px;
   font-weight: bold;
-  border-bottom: 1px solid white;
 }
 
 .text-content p {
   font-family: "Open Sans", sans-serif;
-  font-weight: normal;
   font-size: 20px;
-  text-align: justify;
+  font-weight: normal;
   line-height: 30px;
   padding: 34px 0px 0px 153px;
+  text-align: justify;
 }
 .image-carousel {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
 }
 .image-group {
-  display: flex;
   align-items: center;
-  width: 100%;
+  display: flex;
   gap: 69px;
+  width: 100%;
 }
 
 .carousel-nav {
-  display: flex;
   align-items: center;
+  display: flex;
   gap: 30px;
 }
